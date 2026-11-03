@@ -1,0 +1,10 @@
+bin/
+obj/
+publish/
+dist/
+.vs/
+*.user
+# Dados locais do app (token DPAPI, conta, log) — nunca versionar
+dados/
+*.bin
+.vercel

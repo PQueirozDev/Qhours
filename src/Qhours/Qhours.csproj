@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>Qhours</AssemblyName>
+    <RootNamespace>Qhours</RootNamespace>
+    <Version>2.0.0</Version>
+    <Product>Qhours</Product>
+    <Company>PQueirozDev</Company>
+    <Description>Registra horas de jogo na Steam sem abrir o jogo.</Description>
+    <Copyright>© 2026 Pedro Queiroz</Copyright>
+    <ApplicationIcon>assets\qhours.ico</ApplicationIcon>
+    <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+    <ApplicationVisualStyles>true</ApplicationVisualStyles>
+    <!-- Baixo consumo: GC de estação de trabalho, sem GC concorrente -->
+    <ServerGarbageCollection>false</ServerGarbageCollection>
+    <ConcurrentGarbageCollection>false</ConcurrentGarbageCollection>
+    <SatelliteResourceLanguages>pt-BR</SatelliteResourceLanguages>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SteamKit2" Version="3.5.0" />
+    <PackageReference Include="System.Security.Cryptography.ProtectedData" Version="8.0.0" />
+  </ItemGroup>
+
+</Project>

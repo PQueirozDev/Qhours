@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#000000">
+  <link rel="icon" type="image/png" href="/assets/qhours.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <title>Privacidade · Qhours</title>
+  <meta name="description" content="O que o Qhours guarda no seu PC e com quem ele se comunica.">
+</head>
+<body>
+  <a class="skip" href="#conteudo">Pular para o conteúdo</a>
+  <header class="nav-wrap">
+    <nav class="nav" aria-label="Principal">
+      <a class="brand" href="/"><img src="/assets/qhours.png" alt="" width="24" height="24"><span>Qhours</span></a>
+      <a class="btn btn-sm btn-primary" href="https://github.com/PQueirozDev/Qhours/releases/latest/download/Qhours.exe">Baixar</a>
+    </nav>
+  </header>
+  <main id="conteudo" class="page">
+    <h1>Privacidade</h1>
+    <p>Atualizado em 2 de novembro de 2026.</p>
+    <h2>O que fica no seu PC</h2>
+    <ul>
+      <li>Seu nome de usuário da Steam e um identificador de login gerado pelo app.</li>
+      <li>Um token de sessão e os dados do Steam Guard, criptografados com DPAPI do Windows.</li>
+      <li>O jogo escolhido, as horas contadas, a meta e um registro de atividade.</li>
+    </ul>
+    <p>Tudo fica em %LOCALAPPDATA%\Qhours. A senha nunca é gravada.</p>
+    <h2>Com quem o app conversa</h2>
+    <ul>
+      <li>Servidores da Steam, para entrar na conta e informar o jogo.</li>
+      <li>A loja pública da Steam, para buscar o nome e a capa do jogo.</li>
+    </ul>
+    <p>Não existe servidor do Qhours, conta própria, anúncio ou telemetria. Este site não usa cookies nem ferramentas de rastreamento.</p>
+    <h2>Como apagar tudo</h2>
+    <p>Clique em Esquecer conta no app e apague a pasta %LOCALAPPDATA%\Qhours. Na Steam, você pode desautorizar todos os dispositivos em Detalhes da conta, Gerenciar Steam Guard.</p>
+    <a class="btn btn-ghost" href="/">Voltar para o início</a>
+  </main>
+</body>
+</html>

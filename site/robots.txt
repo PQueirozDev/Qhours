@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://qhours.vercel.app/sitemap.xml
